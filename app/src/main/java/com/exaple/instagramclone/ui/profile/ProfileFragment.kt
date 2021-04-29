@@ -8,9 +8,20 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.viewpager.widget.ViewPager
 import com.exaple.instagramclone.R
+import com.google.android.material.tabs.TabLayout
 
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
+
+    var tabLayout: TabLayout? = null
+    var viewPager: ViewPager? = null
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+     
+    }
+
 
 //    private lateinit var profileViewModel: ProfileViewModel
 //
